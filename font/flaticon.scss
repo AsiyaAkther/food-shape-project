@@ -1,0 +1,121 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?21e0912a340d07e82925bb352d3be554") format("truetype"),
+url("./flaticon.woff?21e0912a340d07e82925bb352d3be554") format("woff"),
+url("./flaticon.woff2?21e0912a340d07e82925bb352d3be554") format("woff2"),
+url("./flaticon.eot?21e0912a340d07e82925bb352d3be554#iefix") format("embedded-opentype"),
+url("./flaticon.svg?21e0912a340d07e82925bb352d3be554#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "basket": "\f101",
+    "carrot": "\f102",
+    "salad": "\f103",
+    "leaf": "\f104",
+    "vegetables": "\f105",
+    "flask": "\f106",
+    "departure": "\f107",
+    "big-cargo-truck": "\f108",
+    "countryside": "\f109",
+    "support": "\f10a",
+    "sprout": "\f10b",
+    "coffee-seed": "\f10c",
+    "vegetables-1": "\f10d",
+    "mushroom": "\f10e",
+    "play": "\f10f",
+    "tools": "\f110",
+    "settings": "\f111",
+    "chip": "\f112",
+    "monitor": "\f113",
+    "smartphone": "\f114",
+    "speed": "\f115",
+    "fridge": "\f116",
+    "electric-generator": "\f117",
+    "desktop-computer": "\f118",
+);
+
+.flaticon-basket:before {
+    content: map-get($flaticon-map, "basket");
+}
+.flaticon-carrot:before {
+    content: map-get($flaticon-map, "carrot");
+}
+.flaticon-salad:before {
+    content: map-get($flaticon-map, "salad");
+}
+.flaticon-leaf:before {
+    content: map-get($flaticon-map, "leaf");
+}
+.flaticon-vegetables:before {
+    content: map-get($flaticon-map, "vegetables");
+}
+.flaticon-flask:before {
+    content: map-get($flaticon-map, "flask");
+}
+.flaticon-departure:before {
+    content: map-get($flaticon-map, "departure");
+}
+.flaticon-big-cargo-truck:before {
+    content: map-get($flaticon-map, "big-cargo-truck");
+}
+.flaticon-countryside:before {
+    content: map-get($flaticon-map, "countryside");
+}
+.flaticon-support:before {
+    content: map-get($flaticon-map, "support");
+}
+.flaticon-sprout:before {
+    content: map-get($flaticon-map, "sprout");
+}
+.flaticon-coffee-seed:before {
+    content: map-get($flaticon-map, "coffee-seed");
+}
+.flaticon-vegetables-1:before {
+    content: map-get($flaticon-map, "vegetables-1");
+}
+.flaticon-mushroom:before {
+    content: map-get($flaticon-map, "mushroom");
+}
+.flaticon-play:before {
+    content: map-get($flaticon-map, "play");
+}
+.flaticon-tools:before {
+    content: map-get($flaticon-map, "tools");
+}
+.flaticon-settings:before {
+    content: map-get($flaticon-map, "settings");
+}
+.flaticon-chip:before {
+    content: map-get($flaticon-map, "chip");
+}
+.flaticon-monitor:before {
+    content: map-get($flaticon-map, "monitor");
+}
+.flaticon-smartphone:before {
+    content: map-get($flaticon-map, "smartphone");
+}
+.flaticon-speed:before {
+    content: map-get($flaticon-map, "speed");
+}
+.flaticon-fridge:before {
+    content: map-get($flaticon-map, "fridge");
+}
+.flaticon-electric-generator:before {
+    content: map-get($flaticon-map, "electric-generator");
+}
+.flaticon-desktop-computer:before {
+    content: map-get($flaticon-map, "desktop-computer");
+}
