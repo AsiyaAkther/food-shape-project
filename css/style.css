@@ -12,11 +12,13 @@ a:hover{
 	text-decoration:none;
 }
 header{
-	min-height:800px;
+	min-height:600px;
+	padding-bottom: 150px;
 }
 .header-top{
 	background:#000;
 	height:50px;
+	color:#adb3bb;
 }
 .top-left{
 	padding:12px 0px 0px 15px;
@@ -29,14 +31,14 @@ header{
 .top-right{
 	margin-left:310px;
 }
+.top-right ul li{
+	float: left;
+	list-style-type:none;
+}
 .fa-facebook-square, .fa-twitter, .fa-behance-square, .fa-youtube, .fa-pinterest-square{
 	color:#adb3bb;
 	font-size:18px;
 	margin: 0px 10px;
-}
-.top-right ul li{
-	float: left;
-	list-style-type:none;
 }
 .menu-bar{
 	background:#fff;
@@ -517,11 +519,12 @@ box-shadow: 0px 0px 10px 1px rgba(155,156,158,0.62);
       display: block;
       -webkit-backface-visibility: visible;
       transition: opacity 200ms ease;
-      border-radius: 30px; }
+      border-radius: 30px; 
+}
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
       background: #4aa406; 
       border: 1px solid transparent;
-    }
+}
 .owl-theme .owl-nav{
 	display:none;
 }
@@ -530,11 +533,9 @@ box-shadow: 0px 0px 10px 1px rgba(155,156,158,0.62);
 }
 .text-area-paragraph{
 	text-align:center;
-	
 }
 .client-id{
-	margin-left:20px
-	
+	margin-left:20px;	
 }
 .client{
 	width:55%;
@@ -665,4 +666,176 @@ footer{
 	text-align:center;
 	color:#5b6471;
 	font-size:10px;
+}
+
+/* ===================== 
+about page css 
+=====================*/
+.slider-item p{
+	font-size:18px;
+	color:#c6c6c6;
+	width:51%;
+	margin:0px auto;
+}
+.experience-text span{
+	font-size:20px;
+	color:#4aa406;
+}
+.experience-text h2{
+	font-size:40px;
+	font-weight:700;
+	color:#000;
+	margin-bottom:20px;
+}
+.experience-text p{
+	font-size:16px;
+	color:#5b6471;
+	margin-bottom:25px;
+}
+.review{
+	background-color:#000;
+	position:relative;
+	padding-bottom:0;
+}
+.review-text{
+	text-align:center;
+}
+.review-text span{
+	font-size:22px;
+	color:#b2b2b2;
+}
+.review-text h2{
+	font-size:40px;
+	color:#fff;
+	font-weight:300;
+}
+.review-text h4{
+	font-size:40px;
+	color:#fff;
+	font-weight:700;
+	margin-bottom:15px;
+}
+.review-text p{
+	font-size:14px;
+	color:#b2b2b2;
+	width:80%;
+	margin:0px auto;
+	margin-bottom:25px;
+}
+.review-img{
+	position:absolute;
+	bottom:7%;
+	left:0;
+	content:"";
+}
+.review-img img{
+	height:550px;
+}
+.item-center{
+	min-height: 550px;
+	display: flex;
+	align-items: center;
+}
+.the-farmer{
+	background:#f6f6f6;
+}
+.farmer-text{
+	text-align:center;
+}
+.farmer-text h3{
+	font-size: 45px;
+	font-weight:300;
+	color:#000;
+}
+.farmer-text span{
+	font-size: 45px;
+	font-weight:700;
+	color:#000;
+}
+.farmer-text p{
+	font-size: 16px;
+	width:50%;
+	color:#5b6471;
+	margin:0px auto;
+}
+.farmer-slider{
+	margin-top:50px;
+}
+.farmer-id{
+	text-align:center;
+}
+.farmer-id p{
+	font-size:14px;
+	color:#000;
+	margin-bottom:0px;
+	font-weight:700;
+}
+.farmer-id span{
+	font-size:12px;
+}
+.farmer-id img{
+	margin-bottom:10px;
+}
+.counter-area{
+	background-image:url('../images/counter-bg_02.png');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding:100px 0px;
+	position:relative;
+}
+.counter-area:before{
+	background:#635343;
+	position:absolute;
+	top:0;
+	left:0;
+	content:"";
+	height:100%;
+	width:100%;
+	opacity:.50;
+}
+.counter-main{
+	text-align:center;
+	color:#fff;
+}
+.counter-main span{
+	font-size:45px;
+	font-weight:300;
+}
+.counter-main p{
+	font-size:12px;
+}
+.quote-slider-item{
+	text-align:center;
+}
+.quotes-slider{
+	margin-top:40px;
+}
+.fa-quote-left{
+	color:#4aa406;
+	font-size:40px;
+	margin-bottom:15px;
+}
+.quote-slider-item h4{
+	font-size:25px;
+	font-weight:700;
+	color:#000;
+	margin-bottom:15px;
+}
+.quote-slider-item p{
+	font-size:14px;
+	color:#5b6471;
+	width:50%;
+	margin:0px auto;
+	margin-bottom:15px;
+}
+.client-name{
+	font-size:14px;
+	color:#000;
+	display:block;
+	font-weight:700;
+}
+.client-detail{
+	font-size:12px;
+	color:#4aa406;
 }
