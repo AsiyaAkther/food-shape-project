@@ -13,7 +13,6 @@ a:hover{
 }
 header{
 	min-height:600px;
-	padding-bottom: 150px;
 }
 .header-top{
 	background:#000;
@@ -172,6 +171,9 @@ border-radius:10px;
 }
 .fa-caret-right{
 	margin-right:5px;
+}
+#our-service{
+	padding-top:180px;
 }
 .service-details{
 	margin-top:50px;
@@ -366,8 +368,12 @@ box-shadow: 0px 0px 10px 1px rgba(155,156,158,0.62);
 	margin-top:30px;
 	background-color:#fff;
 }
+.tab-img{
+	padding:100px 0;
+}
 .tab-img img{
 	width:100%;
+	height:auto;
 }
 .tab-text span{
 	font-size:20px;
@@ -838,4 +844,101 @@ about page css
 .client-detail{
 	font-size:12px;
 	color:#4aa406;
+}
+/*=================================
+ Services css 
+ ==========================*/
+ .why-choice-text{
+	text-align:center;
+}
+.why-choice-text h3{
+	font-size: 45px;
+	font-weight:300;
+	color:#000;
+}
+.why-choice-text span{
+	font-size: 45px;
+	font-weight:700;
+	color:#000;
+}
+.why-choice-text p{
+	font-size: 16px;
+	width:50%;
+	color:#5b6471;
+	margin:0px auto;
+}
+.faq-area{
+	margin-top:50px;
+}
+.card-header{
+	padding:15px 75px;
+}
+.card-header p{
+	font-size:16px;
+	color:#9398a0;
+}
+.card-header:active{
+	color:#4aa406;
+}
+#headingOne i{
+	margin-left:300px;
+}
+#headingTwo i{
+	margin-left:320px;
+}
+#headingThree i{
+	margin-left:320px;
+}
+#headingFour i{
+	margin-left:345px;
+}
+.fa-plus{
+	color:#9398a0;
+	font-size:16px;
+	padding:15px 10px 0px 10px;
+}
+.all-btn{
+	background:#4aa406;
+	color:#fff;
+	padding:10px 25px;
+	border:1px solid #4aa406;
+	border-radius:5px;
+	font-weight:700;
+	font-size:12px;
+}
+.all-btn:hover{
+	background:#9d9fa2;
+	color:#000;
+}
+.card-body{
+	font-size:14px;
+	color:#9098a4;
+	padding:30px 80px 40px;
+}
+.card-body p{
+	padding-bottom:20px;
+}
+.btn-link.focus, .btn-link:focus {
+    text-decoration: none;
+	
+}
+.btn.focus, .btn:focus {
+    box-shadow:none;
+	color:#4aa406;
+}
+.accordion>.card:not(:last-of-type) {
+    border-bottom: 2px solid #e5e5e5;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+	border-radius:10px;
+}
+
+.card{
+	border:2px solid #e5e5e5;
+	margin: 15px 0px;
+	border-radius:10px;
+}
+.btn-link:hover {
+    color: #0056b3;
+    text-decoration: none;
 }
